@@ -1,12 +1,52 @@
-# React + Vite
+# Party Kanban
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This repository contains the mini-project, **_Party Kanban_**. 
 
-Currently, two official plugins are available:
+It showcases a React frontend application with no data persistence, so any changes will be lost when the page is reloaded.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Party Kanban is a fun and interactive kanban board with drag and drop functionality. You can add, edit, view and delete tasks, and it  also includes a nice datepicker. Additionally, there is a section where you can configure the basic options that will be displayed in the forms.
 
-## Expanding the ESLint configuration
+### [Try the app]("https://CarlosCanet.github.io/M2-Miniproject-kanban")
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---- 
+
+## 🚀 Quick Start
+
+1. Clone the repository:
+```bash
+git clone https://github.com/CarlosCanet/M2-Miniproject-kanban.git
+```
+
+2. Install dependencies:
+```bash
+cd M2-Miniproject-kanban
+npm install
+```
+
+3. Start the app:
+```bash
+npm run dev
+```
+
+The app will be available at `http://localhost:5173`
+
+-----
+
+## 🛡️ Technologies Used
+
+- Node.js
+- React
+- Tailwind
+- Flowbite React
+
+---- 
+
+## 🔗Links
+- [Github repository](https://github.com/CarlosCanet/therapy-dashboard-client)
+- [Deployed app](https://therapy-dashboard-server.onrender.com/)
+
+---- 
+
+## 👥Authors
+- [Alejandra Rodríguez](https://github.com/malejaroti)
+- [Carlos Canet](https://github.com/CarlosCanet)
