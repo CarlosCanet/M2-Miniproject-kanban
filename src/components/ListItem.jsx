@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Link } from "react-router";
 
 function ListItem({ task, onDelete }) {
-  const [draggedElement, setDraggedElement] = useState(null);
+  const [_draggedElement, setDraggedElement] = useState(null);
   const handleDragStart = (event) => {
     event.dataTransfer.setData("text/plain", task.id);
     event.dataTransfer.effectAllowed = "move";
